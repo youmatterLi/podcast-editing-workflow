@@ -1,6 +1,6 @@
 # Full Checklist (go through item by item before delivery)
 
-For every item record: status (PASS / FAIL / REVIEW / NOT CHECKED / N/A), version, where the evidence is; N/A and not-done items need a reason. Any FAIL or NOT CHECKED means it can only be called a "review candidate". The delivery report lists every item, not only those done.
+For every item record: status (PASS / FAIL / REVIEW / NOT CHECKED / N/A), version, where the evidence is; N/A and not-done items need a reason. Any FAIL or NOT CHECKED means it can only be called a "review candidate"; any unresolved REVIEW means it cannot count as finally approved either. The delivery report lists every item, not only those done.
 
 "Applies to" column: All = every output; Video = only where there is picture (audio-only records "N/A"); Episode / Short clip = only that kind. Use a program to measure whatever a program can measure.
 
@@ -46,7 +46,7 @@ For every item record: status (PASS / FAIL / REVIEW / NOT CHECKED / N/A), versio
 | --- | --- | --- |
 | 22 | Subtitles checked against the audio sentence by sentence | With subtitles |
 | 23 | Subtitles read through for meaning (homophone errors, pronoun errors (he/she), missing or extra characters) | With subtitles |
-| 24 | One line at a time, natural breaks, punctuation, follows the audio | With subtitles |
+| 24 | Natural breaks, punctuation, follows the audio (if using the single-line practice: one line at a time) | With subtitles |
 | 25 | At least one independent check listening only to the output audio, with each difference listened to | Short clip (recommended for episodes) |
 | 26 | Ranges marked "silence" in the transcript but with significant level have been listened to, and missed words added | Where a transcript is used for word-by-word trimming |
 | 27 | Chapter titles, name tags and on-screen text match the actual content and don't reveal deleted content | All (name tags and on-screen text video only) |
@@ -58,7 +58,7 @@ For every item record: status (PASS / FAIL / REVIEW / NOT CHECKED / N/A), versio
 | 28 | Hooks: each understandable on its own, pauses match the actual gaps, pauses are not digital silence | Where there are hooks |
 | 29 | Chapters: start at the beginning of a question, strictly increasing, first and last aligned with the main content | Where there are chapters |
 | 30 | Progress bar checked by frame sampling | Video with a progress bar |
-| 31 | Music: intro and outro entry and exit points, intro and outro not the same track, transitions only at big topic jumps, licence records present | Where there is music |
+| 31 | Music: intro and outro entry and exit points, intro and outro not the same track (if using that practice), transitions only at big topic jumps, licence records present | Where there is music |
 | 32 | Watermark (if used): applied only once, master has no watermark | Video with a watermark |
 | 33 | Vertical safe area: subtitles, name tags and key picture within the safe area; cover frame count based on the real frame rate | Vertical video |
 

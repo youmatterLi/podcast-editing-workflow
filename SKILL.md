@@ -27,6 +27,8 @@ Reference files — read them when needed:
 - `references/audio.md`: deciding the processing chain from the actual material, loudness, multi-speaker level balance
 - `references/episode-packaging.md`: hooks, chapters, progress bar, music, subtitles, name tags, watermark (mostly example settings)
 - `references/full-checklist.md`: the item-by-item pre-delivery checklist, with applicability
+- `references/example.md`: a fully fictional small example: original → proposed cut → why it can't be cut that way → check record
+- `references/report-template.md`: a fill-in delivery report template (PASS / FAIL / REVIEW / NOT CHECKED)
 
 ---
 
@@ -148,7 +150,7 @@ Check after every edit (including small deletions within a sentence), extending 
 ### Multi-camera and solo
 
 - For a complete statement prefer the speaker's shot; for overlapping speech or uncertain identity use the wide shot from the same moment. Reaction shots use only real footage from the same moment; if there's no suitable shot, use an honest jump cut.
-- Unflattering moments such as a guest crying, wiping their nose or getting up are replaced with the host's shot or a two-shot; switch shots between sentences or in pauses, with only one switch in and one out per instance.
+- Example practice (optional; a content and style choice): unflattering moments such as a guest wiping their nose or getting up are replaced with the host's shot or a two-shot; switch shots between sentences or in pauses, with only one switch in and one out per instance. Crying may be an important part of what is being expressed — don't hide it automatically; whether to cut away is decided by the guest's boundaries and editorial judgement.
 - Cut solo video around complete sentences and demonstration steps; don't delete a key step and then use subtitles to describe an action that never happened on screen.
 
 ### Join checks
@@ -164,7 +166,7 @@ For multi-speaker level balance and loudness see `references/audio.md`.
 ### Short clips: ask three questions first
 
 1. **Opening:** is the first sentence the start of a sentence, or is it tacked onto the tail of the previous one?
-2. **Middle:** does it stand on its own? Is a "why" or "how" left outside the clip? If the same question is asked twice or the same point made twice, keep only one; if they can't be separated, delete the whole sentence, find a different entry point or restructure.
+2. **Middle:** does it stand on its own? Is a "why" or "how" left outside the clip? If the same question is asked twice or the same point made twice, keep only one (choose which by how the answer actually relates to it); if they can't be separated, delete the whole sentence, find a different entry point or restructure.
 3. **Ending:** it's enough that the meaning is complete and it ends where it should end; don't force a fixed ending template.
 
 If any one fails, go back to the source and look 40–60 seconds either side to pull in what's missing. Candidate clips machine-cut by topic routinely break mid-sentence at both ends — check every one. **Get into the topic within five seconds**, with the most gripping line up front. Whether a clip gets made is the approver's call: you can recommend, but starting work is decided by the approver as agreed.
@@ -187,10 +189,10 @@ Shorten unnecessary long pauses (example: ≥0.6 s within the same topic), and n
 
 Details and example settings are in `references/episode-packaging.md`. Key points:
 
-- Subtitles come from the finalised text, not the transcript; don't remove words actually present in the audio (stutters may be written once, "um"/"ah" may be omitted); one line at a time, natural line breaks; checking is done in two passes, "against the audio" and "reading for meaning".
+- Subtitles come from the finalised text, not the transcript; don't remove words actually present in the audio (stutters may be written once, "um"/"ah" may be omitted); natural line breaks (example practice: one line at a time — a style choice); checking is done in two passes, "against the audio" and "reading for meaning".
 - 3–5 opening hooks, each understandable on its own; pauses between hooks are filled with room tone, not digital silence.
 - Chapters are large blocks following how the content develops, starting at the beginning of the question that opens a topic; the same chapter list is used for the on-screen progress bar, file chapter markers and the platform's chapter list.
-- Music: the intro comes in after the hooks and leaves soon after the main content starts; the outro sits under the last stretch of speech; intro and outro use different tracks; no music in the middle by default, with transitions only where the topic jumps a lot.
+- Music: the intro comes in after the hooks and leaves soon after the main content starts; the outro sits under the last stretch of speech; intro and outro use different tracks (example practice — a style choice); no music in the middle by default, with transitions only where the topic jumps a lot.
 - Any re-edit means rebuilding subtitles and recalculating chapters and the progress bar.
 
 ---
@@ -207,7 +209,7 @@ Details and example settings are in `references/episode-packaging.md`. Key point
 | NOT CHECKED | Should have been doable but wasn't done or was blocked by tooling; state why |
 | N/A | State why (e.g. visual items for an audio-only work) |
 
-Every item records the version; an old version's result can't stand for a new version. A version with any FAIL or NOT CHECKED can only be called a "review candidate". The delivery report lists every checklist item with its status, not only the ones done. Checklist: `references/full-checklist.md`.
+Every item records the version; an old version's result can't stand for a new version. A version with any FAIL or NOT CHECKED can only be called a "review candidate"; a version with any unresolved REVIEW cannot count as finally approved either. The delivery report lists every checklist item with its status, not only the ones done. Checklist: `references/full-checklist.md`.
 
 ### Sending for review
 

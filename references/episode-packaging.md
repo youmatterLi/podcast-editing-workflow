@@ -60,7 +60,7 @@ Applies to: progress-bar chapters, on-screen chapter cards, the platform's chapt
 Principles:
 - **Intro music comes in after the hooks** and is fully gone soon after the main content starts; it doesn't run on under the main content.
 - **Outro music comes in under the last stretch of speech**, without covering the voice, and rises after the speaking ends; an outro track that's too short ends abruptly.
-- **Intro and outro use different tracks** — identified by sound, not file name (another section cut from the same piece counts as the same track).
+- Example practice (a style choice, optional): **intro and outro use different tracks** — identified by sound, not file name (another section cut from the same piece counts as the same track).
 - **No music in the middle of the main content by default.** A transition track is used only at joins where a large deletion has left a big jump in topic; smooth joins get nothing. Within one episode use the same transition track with the same length and level, and not the intro or outro track.
 - **Take a breath before a chapter card:** let the last word of the previous sentence finish completely and pause briefly before the card and music come in.
 - Every music file needs a record of its source and licence.
@@ -79,7 +79,7 @@ A set of example levels (relative to voice level, adjustable): intro fades in ov
 - **Source:** the finalised text, not the transcript. The transcript is only for locating and drafting.
 - **Accuracy is a hard requirement:** cross-check two transcriptions against each other, settle mismatches by listening sentence by sentence, and check names and English words separately. If the subtitles contain something the original audio didn't say, don't synthesise audio to match the text.
 - **Don't remove words actually present in the audio:** only fix punctuation and homophones, and add words that "the transcript missed but are in the audio"; it can be agreed to write stutters once and omit "um"/"ah".
-- **Show only one line at a time**, with natural line breaks (example: at most 16 Chinese characters per line), with punctuation, following the audio: break first at real pauses in speech, then at punctuation, never splitting a word across two lines; short sentences aren't padded out; each line appears when speaking starts and disappears when it ends.
+- Example practice (a style choice, optional): **show only one line at a time**. Natural line breaks (example: at most 16 Chinese characters per line), with punctuation, following the audio: break first at real pauses in speech, then at punctuation, never splitting a word across two lines; short sentences aren't padded out; each line appears when speaking starts and disappears when it ends.
 - **Both submission and checking take two passes:** ① against the audio: compare sentence by sentence with the audio; ② read for meaning: look specifically for homophone errors, pronoun errors (he/she), missing or extra characters — homophone errors are written the same way by the transcription and the subtitles, so pass ① can't catch them. What's submitted is **the version that will actually be burned in**.
 - Program checks: order, start/end times, out-of-range times, unintended overlaps; search for prohibited content and its synonyms and common transcription variants. After burn-in, sample frames to check for truncation, occlusion and styling.
 - When making bilingual subtitles for English content, cross-check with two transcription engines and then review each line by hand.

@@ -10,7 +10,7 @@ The numbers here are example thresholds; adjust them to your material's noise fl
 | What it does | Deletes sentences, passages, pauses, whole repeated sentences | Removes stutters, repeated words said without a break |
 | Where the cut goes | True silence | Inside speech (there is no silence to begin with) |
 | Main acceptance | Level at the cut point drops to the noise floor | Technical join checks on every cut + human listening to every cut or spot-checking as agreed |
-| Can a program alone pass it? | Yes, as agreed in advance | No; when spot-checking, state how many cuts were actually listened to |
+| What a program can confirm | Only the technical measures listed above; it cannot on its own confirm "no word damaged, sounds natural" — that takes human ears (every cut, or spot-checks as agreed) | Same; in addition every cut gets technical checks, and a human listens to every cut or spot-checks as agreed, stating how many cuts were actually listened to |
 
 ## 2. Ordinary cuts: where the cut point goes
 
@@ -83,7 +83,7 @@ The most common issue in the host's speech is **saying the same thing or making 
 - Delete whole or half sentences, then check context coherence.
 - **Keep repetition that is necessary or meaningful:** summarising, emphasising a key point, rephrasing so it's understood.
 - When unsure, judge by the key point this clip is meant to make; the delivery notes say which repetitions were deleted, which were kept, and why.
-- If the same follow-up question is asked twice in the interview, delete the second and keep the first.
+- If the same follow-up question is asked twice in the interview, choose which one to keep based on how the answer actually relates to it: the second may be clearer, or may be the one that drew out the key answer.
 
 ## 5. Limits of a machine first pass
 
